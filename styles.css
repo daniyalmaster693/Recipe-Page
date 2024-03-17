@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+  background-color: #f3e5d8;
+  padding: 0;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 14px;
+  max-width: 650px;
+  padding: 30px;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+img {
+  border-radius: 14px;
+  height: 280px;
+  width: 100%;
+}
+
+.recipe h1 {
+  font-family: "Young Serif";
+  color: #353432;
+}
+
+.recipe p {
+  font-family: "Outfit";
+  color: #66605c;
+}
+
+.preparation {
+  background-color: #fff7fc;
+  color: #7e455e;
+  font-family: "Outfit";
+  font-weight: 400;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.preparation h3 {
+  margin-left: 26px;
+}
+
+.preparation ul {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #605651;
+}
+
+.ingredients h1 {
+  color: #804934;
+  font-family: "Young Serif";
+  font-weight: 500;
+  font-size: 27px;
+}
+
+.ingredients ul {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-family: "Outfit";
+  color: #353432;
+}
+
+hr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.instructions h1 {
+  color: #804934;
+  font-family: "Young Serif";
+  font-weight: 500;
+  font-size: 27px;
+}
+
+.instructions ol {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Outfit";
+  color: #353432;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+
+.nutrition h1 {
+  color: #804934;
+  font-family: "Young Serif";
+  font-weight: 500;
+  font-size: 27px;
+}
+
+.subtext {
+  color: #353432;
+  font-family: "Outfit";
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+table tr {
+  border-bottom: 1px solid #5f574e;
+  line-height: 3;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+tr th {
+  font-weight: 400;
+  text-align: left;
+  padding-left: 20px;
+  font-family: "Outfit";
+}
+
+tr td {
+  font-weight: 600;
+  color: #804934;
+  font-family: "Outfit";
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+  font-size: 13px;
+  font-family: "Outfit";
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
